@@ -466,6 +466,7 @@ label {
 }
 #contact .icon-container {
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
 #contact .icon-box:first-child:hover {
 	color: #121d1f;

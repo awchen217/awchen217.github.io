@@ -79,7 +79,7 @@ function main() {
       var target = $('.credits-list');
       $('html, body').animate({
         scrollTop: target.offset().top
-      }, 900);
+      }, 100);
     }
 
     $('#credits-btn').on('click', function() {
@@ -97,7 +97,6 @@ function main() {
     $('#credits-up').on('click', function() {
       areCreditsDisplayed = false;
       toggleCredits(areCreditsDisplayed);
-      scrollCredits();
     });
   }());
 }
