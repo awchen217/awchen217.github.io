@@ -418,10 +418,11 @@ hr {
 	color: #629ca7;
 	font-size: 20px;
 }
-.timeline .timeline-heading h4.date {
+.timeline .timeline-heading h4.date,
+.timeline .timeline-heading h4.location {
 	text-transform: none;
 	color: black;
-	font-size: 19px;
+	font-size: 18px;
 	font-weight: 100;
 }
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
